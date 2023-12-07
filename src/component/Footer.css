@@ -1,0 +1,95 @@
+.footer {
+    width: 100%;
+    background-color: rgb(245, 246, 243);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-con {
+    width: 70%;
+}
+
+.footer-text {
+    height: 5.5vw;
+    border-bottom: 1px solid lightgrey;
+}
+
+.footer-text p, 
+.footer-text p a, 
+.footer-text-2 p, 
+.footer-text-2 a,
+.copyright p {
+    font-size: 1vw;
+}
+
+.logo-welcome {
+    height: 2vw;
+}
+
+.footer-text-2 {
+    height: 2vw;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.menu-bar-row ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0;
+}
+
+.menu-bar-row {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.head {
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+
+.head li a {
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+
+
+.other-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.basic-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.language ul,
+.basic-list ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.language ul a,
+.basic-list ul a {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 1vw;
+    border-right: 1px solid lightgray;
+}
+
+.menu-block li a {
+    text-decoration: none;
+    color: black;
+}
+
+

@@ -1,0 +1,99 @@
+.product {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-con {/* title and table */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: relative;
+    left: 15px;
+}
+
+.product-title {
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+
+.product-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    margin-bottom: 30px;
+}
+
+.product-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(244, 244, 243);
+    border-radius: 1vw;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 33%;
+    margin-right: 20px ;
+}
+
+.product-img img {
+    width: 25vw;
+    margin-bottom: 2rem;
+}
+
+.product-name a {
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: black;
+    font-weight: 600;
+}
+
+.product-cost p {
+    font-weight: 400;
+}
+
+.empty {
+    background-color: white;
+}
+
+.product-column-accessories {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    margin-bottom: 30px;
+    background-image: url('https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/edu-accessories-201903?wid=2136&hei=960&fmt=png-alpha&.v=1618079611000');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 40vw;
+}
+
+.accessories-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70%;
+    
+}
+
+.accessories-information h1 {
+    font-size: 3.2vw;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.accessories-information h2, a{
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
